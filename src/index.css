@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Peyda";
+  src: url("../src/assets/fonts/woff2/PeydaWebFaNum-Medium.woff2")
+    format("woff2");
+
+  font-weight: normal;
+}
+
+body {
+  font-family: 'Peyda', sans-serif;
+}
