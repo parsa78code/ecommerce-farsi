@@ -1,6 +1,6 @@
 import damanImg from "../assets/dam2.svg";
-import pirahanImg from "../assets/pirahan.svg";
-import shalvarImg from "../assets/shalvar.svg";
+// import pirahanImg from "../assets/pirahan.svg";
+// import shalvarImg from "../assets/shalvar.svg";
 import crupImg from "../assets/crup.svg";
 /**
  * هر آیتم دسته‌بندی می‌تونه این ساختار رو داشته باشه:
@@ -17,8 +17,8 @@ const CategoryCard = ({
   title,
   image,
   subtitle,
-  actionLabel = "مشاهده",
-  onClick,
+  // actionLabel = "",
+  // onClick,
 }) => {
   return (
     <div className="relative group cursor-pointer overflow-hidden rounded-2xl shadow-lg transition-transform transform hover:scale-105">
@@ -32,7 +32,7 @@ const CategoryCard = ({
       </div>
 
       {/* اورلی رنگی روی هاور */}
-      <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">
+      <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-50 transition-opacity duration-300 flex flex-col justify-end p-4">
         <div className="flex flex-col gap-2">
           {subtitle && (
             <span className="self-start bg-white/90 text-xs font-medium px-3 py-1 rounded-full shadow">
@@ -40,19 +40,19 @@ const CategoryCard = ({
             </span>
           )}
           <h3 className="text-white font-bold text-lg">{title}</h3>
-          <button
+          {/* <button
             onClick={onClick}
             className="mt-2 bg-white/90 text-gray-900 text-sm font-semibold px-4 py-2 rounded-full shadow-md hover:bg-white transition"
           >
             {actionLabel}
-          </button>
+          </button> */}
         </div>
       </div>
 
       {/* پایین کارت (همیشه نمایش داده می‌شود) */}
-      <div className="bg-white pt-3 pb-2 px-3 text-center">
+      {/* <div className="bg-white pt-3 pb-2 px-3 text-center">
         <div className="text-sm font-medium text-gray-700">{title}</div>
-      </div>
+      </div> */}
     </div>
   );
 };
@@ -95,13 +95,13 @@ export default function ExampleWrapper() {
     },
     {
       title: "پیراهن",
-      image: pirahanImg,
+      image: damanImg,
       actionLabel: "مشاهده",
       onClick: () => alert("پیراهن"),
     },
     {
       title: "شلوار",
-      image: shalvarImg,
+      image: damanImg,
       subtitle: "پرفروش",
       onClick: () => alert("شلوار"),
     },

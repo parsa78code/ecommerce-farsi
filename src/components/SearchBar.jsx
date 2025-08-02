@@ -25,7 +25,7 @@ const SearchBar = () => {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           type="text"
-          placeholder="Search"
+          placeholder="جستحو کنید"
         />
         <img src={assets.search_icon} className="w-4" alt="" />
       </div>

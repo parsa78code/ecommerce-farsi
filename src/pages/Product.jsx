@@ -98,26 +98,26 @@ const Product = () => {
       </div>
 
       {/* --------description & rewiw section----------- */}
-      <div className="mt-20">
+      <div className="mt-20" dir="rtl">
         <div className="flex">
-          <b className="border px-5 py-3 text-sm">Description</b>
-          <p className="border px-5 py-3 text-sm">Reviews (122)</p>
+          <b className="border px-5 py-3 text-sm">توضیحات</b>
+          <p className="border px-5 py-3 text-sm">نظرات (122)</p>
         </div>
-        <div className="flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500">
+        <div className="flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500 leading-7">
           <p>
-            An e-commerce website is an online platform that facilitates the
-            buying and selling of products or services over the internet. It
-            serves as a virtual marketplace where businesses and individuals can
-            showcase their products, interact with customers, and conduct
-            transactions without the need for a physical presence. E-commerce
-            websites have gained immense popularity due to their convenience,
-            accessibility, and the global reach they offer.
+            یک وب‌سایت فروشگاهی بستری آنلاین است که فرآیند خرید و فروش محصولات
+            یا خدمات را از طریق اینترنت تسهیل می‌کند. این وب‌سایت به‌عنوان یک
+            بازارچه مجازی عمل می‌کند که کسب‌وکارها و افراد می‌توانند محصولات خود
+            را به نمایش بگذارند، با مشتریان تعامل داشته باشند و تراکنش‌ها را
+            بدون نیاز به حضور فیزیکی انجام دهند. وب‌سایت‌های فروشگاهی به دلیل
+            راحتی، دسترسی آسان و گستره جهانی که ارائه می‌دهند، بسیار محبوب
+            شده‌اند.
           </p>
           <p>
-            E-commerce websites typically display products or services along
-            with detailed descriptions, images, prices, and any available
-            variations (e.g., sizes, colors). Each product usually has its own
-            dedicated page with relevant information.
+            وب‌سایت‌های فروشگاهی معمولاً محصولات یا خدمات را همراه با توضیحات
+            دقیق، تصاویر، قیمت‌ها و هرگونه تنوع موجود (مانند سایز یا رنگ) نمایش
+            می‌دهند. هر محصول معمولاً صفحه اختصاصی خود را با اطلاعات مرتبط دارد
+            تا مشتری بتواند تصمیم آگاهانه‌ای بگیرد.
           </p>
         </div>
       </div>

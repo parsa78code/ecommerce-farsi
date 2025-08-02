@@ -11,7 +11,7 @@ import Orderes from "./pages/Orderes";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Footer from "./components/Footer";
-// import SearchBar from "./components/SearchBar";
+import SearchBar from "./components/SearchBar";
 // import { ToastContainer, toast } from "react-toastify";
 
 const App = () => {
@@ -19,7 +19,7 @@ const App = () => {
     <div className="px-4 sm:px-[5vw] md:px-[7vw] lg: [9vw]">
       {/* <ToastContainer /> */}
       <Navbar />
-      {/* <SearchBar /> */}
+      <SearchBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/collection" element={<Collection />} />

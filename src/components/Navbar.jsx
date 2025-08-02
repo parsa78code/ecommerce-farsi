@@ -38,7 +38,7 @@ const Navbar = () => {
         </NavLink>
 
         <NavLink
-          to="/collection"
+          to="/"
           className={({ isActive }) =>
             `${linkClasses} ${isActive ? " text-black" : ""}`
           }

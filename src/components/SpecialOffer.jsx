@@ -57,7 +57,7 @@ const SpecialOffer = ({
       ></div>
       <div className="relative flex flex-col md:flex-row items-center gap-8 px-6 py-12 md:py-20 max-w-7xl mx-auto">
         {/* چپ: تصویر/فضای خالی می‌تونه برای عکس مدل باشه */}
-        <div className="flex-1 hidden md:block"></div>
+        <div className="flex hidden md:block"></div>
 
         {/* راست: متن و تایمر */}
         <div className="flex-1 flex flex-col gap-6">
